@@ -1,5 +1,5 @@
 FROM amazoncorretto:17
 WORKDIR /app
-COPY guessnumber.java .
-RUN javac guessnumber.java
-CMD ["java", "guessnumber"]
+COPY GuessNumber.java .
+RUN javac GuessNumber.java
+CMD ["java", "GuessNumber"]
